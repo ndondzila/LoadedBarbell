@@ -1,0 +1,35 @@
+.BigRed {
+    height: 100%;
+    width: 3.5%;
+    background: linear-gradient(red, darkred);
+    border-radius: 15px;
+    box-shadow: inset -5px 0 darkred;
+    display: inline-flex;
+}
+
+.BigBlue {
+    height: 100%;
+    width: 3%;
+    background: linear-gradient(blue, darkblue);
+    border-radius: 15px;
+    box-shadow: inset -5px 0 darkblue;
+    display: inline-flex;
+}
+
+.BigYellow {
+    height: 100%;
+    width: 2.5%;
+    background: linear-gradient(#f1fa3c, yellow);
+    border-radius: 15px;
+    box-shadow: inset -5px 0 yellow;
+    display: inline-flex;
+}
+
+.BigGreen {
+    height: 100%;
+    width: 2.25%;
+    background: linear-gradient(#79d70f, green);
+    border-radius: 15px;
+    box-shadow: inset -5px 0 green;
+    display: inline-flex;
+}
