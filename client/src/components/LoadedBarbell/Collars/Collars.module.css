@@ -1,17 +1,19 @@
-.ShortEnd {
-    height: 12.5%;
-    width: 5%;
+.CompCollarInside {
+    height: 18%;
+    width: 1.25%;
     background: linear-gradient(silver, gray);
     display: inline-flex;
     position: relative;
-    box-shadow: inset -20px 0 yellow;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.Inverted {
-    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+.CompCollarOutside {
+    height: 19%;
+    width: 1.25%;
+    background: linear-gradient(silver, lightgray);
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }

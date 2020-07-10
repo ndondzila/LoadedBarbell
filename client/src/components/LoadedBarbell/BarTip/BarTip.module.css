@@ -1,0 +1,39 @@
+.ShortEnd {
+    height: 12.5%;
+    width: 4%;
+    background: linear-gradient(silver, gray);
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.MediumEnd {
+    height: 12.5%;
+    width: 10%;
+    background: linear-gradient(silver, gray);
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.LongEnd {
+    height: 12.5%;
+    width: 12%;
+    background: linear-gradient(silver, gray);
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Empty {
+    height: 12.5%;
+    width: 15%;
+    background: linear-gradient(silver, gray);
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

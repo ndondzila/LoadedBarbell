@@ -9,8 +9,8 @@
 }
 
 .Joint {
-    height: 20%;
-    width: 2%;
+    height: 17.5%;
+    width: 1.75%;
     background: linear-gradient(silver, gray);
     display: inline-flex;
     position: relative;

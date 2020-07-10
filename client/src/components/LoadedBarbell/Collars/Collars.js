@@ -1,21 +1,26 @@
 import React, {Component} from 'react';
 import classes from './Collars.module.css';
+import Auxiliary from '../../../HOC/Auxiliary';
 
 class Collars extends Component {
 
   render() {
-    let endOfBar = null;
-    switch (this.props.type) {
-      case ('shortEnd'):
-        endOfBar = <div className = {classes.ShortEnd}></div>
-        break;
-      default:
-        endOfBar = null;
-        break;
+    
+    if(this.props.side === 'right') {
+      return (
+        <Auxiliary>
+          <div className={classes.CompCollarInside} />
+          <div className={classes.CompCollarOutside} />
+        </Auxiliary>
+      )
+    } else {
+      return (
+        <Auxiliary>
+          <div className={classes.CompCollarOutside} />
+          <div className={classes.CompCollarInside} />
+        </Auxiliary>
+      )
     }
-    return (
-      endOfBar
-    )
   }
 }
 

@@ -1,33 +1,41 @@
-import React from 'react';
-import WeightDiscs from './WeightDiscs/WeightDiscs';
-import Barbell from './Barbell/Barbell';
-import classes from './LoadedBarbell.module.css';
-import Collars from './Collars/Collars';
-import BarEnd from './BarEnd/BarEnd';
+import React, { Component } from "react";
+import Barbell from "./Barbell/Barbell";
+import classes from "./LoadedBarbell.module.css";
+import BarEnd from "./BarEnd/BarEnd";
 
-const LoadedBarbell = ( props ) => {
-
-  return (
-    <div className={classes.LoadedBarbell}>
-            <Collars type="shortEnd"/>
-            <WeightDiscs type="bigGreen" />
-            <WeightDiscs type="bigYellow" />
-            <WeightDiscs type="bigBlue" />
-            <WeightDiscs type="bigRed" />
-            <Barbell />
-            <WeightDiscs type="bigRed" />
-            <WeightDiscs type="bigBlue" />
-            <WeightDiscs type="bigYellow" />
-            <WeightDiscs type="bigGreen" />
-            <Collars type="shortEnd"/>
-            
-            
-            
-            
-    </div>
-  )
-
+class LoadedBarbell extends Component {
+  state = {
+    largeDiscs: {
+      bigRed: 3,
+      bigBlue: 0,
+      bigYellow: 0,
+      bigGreen: 0,
+      bigWhite: 0,
+      smallRed: 0
+    },
+    changeDiscs: {
+      smallBlue: 0,
+      smallYellow: 0,
+      smallGreen: 0,
+      smallWhite: 0,
+    },
+  };
+  render() {
+    return (
+      <div className={classes.LoadedBarbell}>
+        <BarEnd
+          largeDiscs={this.state.largeDiscs}
+          changeDiscs={this.state.changeDiscs}
+        />
+        <Barbell />
+        <BarEnd
+          type='right'
+          largeDiscs={this.state.largeDiscs}
+          changeDiscs={this.state.changeDiscs}
+        />
+      </div>
+    );
+  }
 }
-
 
 export default LoadedBarbell;

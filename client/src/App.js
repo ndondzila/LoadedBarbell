@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import LoadedBarbell from './components/LoadedBarbell/LoadedBarbell';
+import BarbellLoader from './containers/BarbellLoader/BarbellLoader';
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h4>This will be a React/Node.js application to display a competition loaded barbell.</h4>
-      </header>
-
-      <LoadedBarbell/>
+      </header>  
+      
+      <BarbellLoader/> 
       
     </div>
   );
