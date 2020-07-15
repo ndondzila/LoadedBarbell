@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h4>This will be a React/Node.js application to display a competition loaded barbell.</h4>
+        <h4>This is a React application to display a competition loaded barbell.</h4>
       </header>  
       
       <BarbellLoader/> 
