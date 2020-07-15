@@ -1,7 +1,7 @@
 .ShortEnd {
     height: 12.5%;
     width: 4%;
-    background: linear-gradient(silver, gray);
+    background: linear-gradient(gray, silver);
     display: inline-flex;
     position: relative;
     top: 50%;
@@ -11,7 +11,7 @@
 .MediumEnd {
     height: 12.5%;
     width: 10%;
-    background: linear-gradient(silver, gray);
+    background: linear-gradient(gray, silver);
     display: inline-flex;
     position: relative;
     top: 50%;
@@ -21,7 +21,7 @@
 .LongEnd {
     height: 12.5%;
     width: 12%;
-    background: linear-gradient(silver, gray);
+    background: linear-gradient(gray, silver);
     display: inline-flex;
     position: relative;
     top: 50%;
@@ -31,7 +31,7 @@
 .Empty {
     height: 12.5%;
     width: 15%;
-    background: linear-gradient(silver, gray);
+    background: linear-gradient(gray, silver);
     display: inline-flex;
     position: relative;
     top: 50%;

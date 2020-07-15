@@ -1,11 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import classes from './BarTip.module.css';
 
-class BarTip extends Component {
+const BarTip = (props) => {
 
-  render() {
     let barTip = null;
-    switch (this.props.type) {
+    switch (props.type) {
       case ('shortEnd'):
         barTip = <div className = {classes.ShortEnd}></div>
         break;
@@ -23,9 +22,8 @@ class BarTip extends Component {
         break;
     }
     
-    return barTip;
-  }
+  return barTip;
+  
 }
-
 
 export default BarTip;

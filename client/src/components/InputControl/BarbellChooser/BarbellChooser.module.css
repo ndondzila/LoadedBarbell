@@ -1,0 +1,15 @@
+.Inline {
+    display: inline-flex;
+    padding: 2%;
+}
+
+.InputLabel {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.Centered {
+    margin: auto;
+}
+
