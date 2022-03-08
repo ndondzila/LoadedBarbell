@@ -18,11 +18,11 @@ const BarbellChooser = (props) => {
         <div className='btn-group btn-group-toggle' data-toggle='buttons'>
           <label className={womensClasses}>
             <input type='radio' name='womens' id='womens' onClick={props.clicked}/>
-            Women's
+            Women's / 15kg
           </label>
           <label className={mensClasses}>
             <input type='radio' name='mens' id='mens' onClick={props.clicked}/>
-            Men's
+            Men's / 20kg
           </label>
         </div>
       </div>

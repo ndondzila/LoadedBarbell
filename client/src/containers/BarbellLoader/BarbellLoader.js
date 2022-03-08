@@ -145,9 +145,9 @@ class BarbellLoader extends Component {
         var newMessage;
         if (userInput <= (this.state.barbellWeight + 5)) {
             newMessage = "Please enter a weight greater than that of the barbell + competition collars (20kg total for women's bar or 25kg for men's bar)";
-        } else if (userInput > 550) {
-            newMessage = 'Please enter a realistic weight; this app caps at 550kg';
-            userInput = 550;
+        } else if (userInput > 295) {
+            newMessage = 'Please enter a realistic weight; this app caps at 295kg';
+            userInput = 295;
         }
         this.setState({
             totalWeight: userInput,
